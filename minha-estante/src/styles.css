@@ -1,0 +1,33 @@
+.conteiner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background: linear-gradient(to right, rgb(31, 64, 55), rgb(153, 242, 200));
+}
+
+.title{
+    font-size: 70px;
+}
+
+.conteinerInput {
+   background-color: rgba(153, 242, 200, 0.2);
+   padding: 15px;
+   margin: 34px;
+   display: flex;
+   border-radius: 8px; 
+   box-shadow: 1px 3px 8px rgba(31, 64, 55, 0.2);
+}
+
+.conteinerInput input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    margin-right: 8px;
+}
+
+
